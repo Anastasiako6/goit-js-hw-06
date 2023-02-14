@@ -5,6 +5,7 @@
 // буде змінюватися розмір тексту.
 
 const sizeEl = document.querySelector('#font-size-control');
+
 const textSpan = document.querySelector('#text');
 
 sizeEl.addEventListener('input', e => {
